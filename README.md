@@ -12,6 +12,7 @@ $ npm install --save check-env-config
 
 ```js
 var checkEnv = require('check-env-config');
+
 checkEnv(['REQUIRED_VAR1', 'REQUIRED_VAR2'], (unsetVars, varsAndValues) => {
   console.log(unsetVars)
   console.log(varsAndValues)
