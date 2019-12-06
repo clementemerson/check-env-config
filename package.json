@@ -1,0 +1,23 @@
+{
+  "name": "check-env-config",
+  "version": "1.0.0",
+  "description": "Checks whether all required env-vars are set in the deployment environment",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clementemerson/check-env-config.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Clement Emerson <clementemerson@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-google": "^0.14.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^6.2.2"
+  }
+}
